@@ -1,0 +1,23 @@
+{
+  "name": "my-piday",
+  "version": "1.0.0",
+  "description": "Calculates PI based anniversaries.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/obuchmann/my-piday-js.git"
+  },
+  "author": "Oliver Buchmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obuchmann/my-piday-js/issues"
+  },
+  "homepage": "https://github.com/obuchmann/my-piday-js#readme",
+  "dependencies": {
+    "dayjs": "^1.11.6"
+  }
+}
