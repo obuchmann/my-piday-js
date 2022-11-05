@@ -5,10 +5,10 @@ Calculates PI based anniversaries.
 ## Usage
 
 ```js
-import myPiDay from "my-piday"
+import MyPiDay from "my-piday"
 // Or use import {piAnniversaries} from "my-piday"
 
-let myPiDays = myPiDay.piAnniversaries('1990-01-01')
+let myPiDays = MyPiDay.piAnniversaries('1990-01-01')
 for (let anniversary of myPiDays){
     console.log("Its my " + anniversary.name + " on " + anniversary.date)
 }
@@ -16,8 +16,9 @@ for (let anniversary of myPiDays){
 ```
 
 ```js
-import myPiDay from "my-piday"
-// Or use import {nextPiAnniversaries} from "my-piday"
+import MyPiDay from "my-piday"
+// Or use import {nextPiAnniversary} from "my-piday"
+let anniversary = MyPiDay.nextPiAnniversary('1990-01-01')
 console.log("My next PI anniversary is the " + anniversary.name + " on " + anniversary.date)
 ```
 

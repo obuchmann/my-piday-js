@@ -24,7 +24,7 @@ export function piAnniversaries(anniversary) {
     return dates;
 }
 
-export function nextPiAnniversaries(anniversary) {
+export function nextPiAnniversary(anniversary) {
     const now = dayjs();
     for (let date of piAnniversaries(anniversary)) {
         if (now.isBefore(date.date)) {
@@ -36,5 +36,5 @@ export function nextPiAnniversaries(anniversary) {
 
 export default {
     piAnniversaries,
-    nextPiAnniversaries
+    nextPiAnniversary
 }
